@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "https://publish.obsidian.md/serve?url=vercel-obsedian-proxy.vercel.app/$1"
+        "destination": "https://publish.obsidian.md/serve?url=www.suvroghosh.blog/$1"
       }
     ],
     "headers": [
