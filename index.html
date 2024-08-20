@@ -7,7 +7,7 @@
     <script>
         async function fetchContent() {
             const path = window.location.pathname + window.location.search;
-            const url = `https://publish.obsidian.md/serve?url=obsedian-blog.vercel.app${path}`;
+            const url = `https://publish.obsidian.md/serve?url=vercel-obsedian-proxy.vercel.app${path}`;
             
             try {
                 const response = await fetch(url);
